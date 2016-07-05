@@ -1,7 +1,7 @@
-![alt text](https://github.com/snatow/project3_calorie_count/blob/master/public/images/fork_logo_small.png)
-## The Best Fwarking Calorie Counting App 
+![alt text](https://github.com/snatow/calorie-app/blob/master/public/images/fork_logo_small.png)
+## Calorie Counting App 
 
-[The Best Fwarking Calorie Counting App](https://fork-calorie-counter-app.herokuapp.com/)
+[Calorie Counting App]()
 
 ### Description
 
@@ -20,7 +20,7 @@
 ### Features
 
 Without User Authentication
-- Visitors to the app can search through the USDA database for individual foods based on key word searches. A list of results will render, and the visitor can click on individual intems in the results to see different portion sizes and the number of calories in each portion. 
+- Visitors to the app can search through the USDA database for individual foods based on key word searches. A list of results will render, and the visitor can click on individual items in the results to see different portion sizes and the number of calories in each portion. 
 
 With User Authentication
 - Visitors can become users by creating user accounts with unique usernames, emails and passwords and record the maximum number of calories that they wish to consume in a given day. A user, once logged in, will see how many calories they would like to consume on a given day plus a date picker that will allow them to select a day for which to create a food log. 
