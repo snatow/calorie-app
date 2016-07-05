@@ -1,7 +1,7 @@
 ![alt text](https://github.com/snatow/calorie-app/blob/master/public/images/fork_logo_small.png)
 ## Calorie Counting App 
 
-[Calorie Counting App](https://github.com/snatow/calorie-app)
+[Calorie Counting App](http://snatow-calorie-app.herokuapp.com/)
 
 ### Description
 
