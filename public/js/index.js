@@ -64,7 +64,7 @@ var CalorieApp = React.createClass({
             logOutShow={this.state.logOutShow}
             logOutSubmit={this.logOutSubmit} />
           <img src="./images/fork_logo.png"/>
-          <h3>The Best Fwoarking Calorie Counting App</h3>
+          <h3>Calorie Counting App</h3>
           <Calories username={this.state.username} logOutToggle={this.logOutToggle}/>
           <div className="activity-div">
             <DatePicker />
@@ -82,7 +82,7 @@ var CalorieApp = React.createClass({
             initialLoginCheck={this.state.authenticatedUser} 
             onChange={this.changeLogin} />
           <img src="./images/fork_logo.png"/>
-          <h3 className="name">The Best Fwoarking Calorie Counting App</h3>
+          <h3 className="name">Calorie Counting App</h3>
           <SearchBarPublic />
         </div>
       )

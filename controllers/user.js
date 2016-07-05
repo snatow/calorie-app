@@ -34,8 +34,8 @@ router.get('/search/:item', function(req,res) {
   console.log('The search for an item works!')
   console.log(req.params.item);
   request('http://api.nal.usda.gov/ndb/search/?format=json&q=' + req.params.item + '&sort=r&max=10&offset=0&api_key=' + process.env.DATA_GOV_KEY, //api call to USDA
-    function(error, repsonse, body){
-      if (!error && repsonse.statusCode == 200) {
+    function(error, response, body){
+      if (!error && response.statusCode == 200) {
         var food = JSON.parse(body) //parses the string to json
         console.log(food.list.item);
         res.send(food.list.item) //sends an array of items returned from the search 
@@ -72,7 +72,7 @@ router.use(passport.authenticate('jwt', { session: false }));
 // Test call to the USDA food API
 router.get('/', function(req, res) {
   request('http://api.nal.usda.gov/ndb/reports/?ndbno=01145&type=f&format=json&api_key=' + process.env.DATA_GOV_KEY, //api call to USDA
-    function(error, repsonse, body){
+    function(error, response, body){
       if (!error && response.statusCode == 200) {
         // console.log(typeof body);
         var food = JSON.parse(body) //parses the string to json
